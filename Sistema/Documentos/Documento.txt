@@ -1,0 +1,62 @@
+﻿Documentação
+ Campos para FrmProdutos
+
+ IdProdutos
+ DataCadastro
+ Produto
+ NumeroSerie
+ ValorCompra
+ ValorVenda
+ Quantidade
+ MargemLucro
+ Observação
+ =================================
+
+Campos para FrmEmpresa
+IdEmpresas
+Datacadastro
+RazãoSocial
+Nomefantasia
+CNPJ
+Incrição estadual
+TelefoneEmpresa
+EndereçoEmpresa
+Número
+Bairro
+Cidade
+Estado
+CEP
+TipoFornecedor
+Segmento
+RegimeTributário
+Tipo de cobrança
+EmailEmpresa
+DadosBancários (Banco, Agência,Tipo de Conta)
+Observação
+
+==================================
+NomeContatoEmpresa
+CPFcontatoEmpresa
+TelefoneContatoEmpresa
+==================================
+Campos para FrmCliente
+
+IdCliente
+Datacadastro
+Cliente
+EmailCliente
+CPF
+RG
+EstadoCivil
+DataNascimento
+Endereço
+Número
+Bairro
+Cidade
+Estado
+CEP
+Telefone 1, Telefone 2
+Referências
+Observação
+
+
