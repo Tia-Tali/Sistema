@@ -29,17 +29,13 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            textBox1 = new TextBox();
             label2 = new Label();
             textBox2 = new TextBox();
             label3 = new Label();
-            textBox3 = new TextBox();
             label4 = new Label();
-            textBox4 = new TextBox();
             label5 = new Label();
             textBox5 = new TextBox();
             label6 = new Label();
-            textBox6 = new TextBox();
             label9 = new Label();
             label7 = new Label();
             textBox7 = new TextBox();
@@ -56,9 +52,20 @@
             label15 = new Label();
             label16 = new Label();
             label17 = new Label();
-            label18 = new Label();
-            textBox13 = new TextBox();
             maskedTextBox1 = new MaskedTextBox();
+            label18 = new Label();
+            label19 = new Label();
+            label20 = new Label();
+            label21 = new Label();
+            textBox10 = new TextBox();
+            textBox15 = new TextBox();
+            textBox17 = new TextBox();
+            label22 = new Label();
+            maskedTextBox2 = new MaskedTextBox();
+            maskedTextBox3 = new MaskedTextBox();
+            maskedTextBox4 = new MaskedTextBox();
+            maskedTextBox5 = new MaskedTextBox();
+            maskedTextBox6 = new MaskedTextBox();
             SuspendLayout();
             // 
             // label1
@@ -69,13 +76,6 @@
             label1.Size = new Size(31, 15);
             label1.TabIndex = 0;
             label1.Text = "Data";
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(73, 79);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(123, 23);
-            textBox1.TabIndex = 1;
             // 
             // label2
             // 
@@ -102,13 +102,6 @@
             label3.TabIndex = 0;
             label3.Text = "CPF";
             // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(502, 79);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(160, 23);
-            textBox3.TabIndex = 1;
-            // 
             // label4
             // 
             label4.AutoSize = true;
@@ -118,13 +111,6 @@
             label4.TabIndex = 0;
             label4.Text = "RG";
             label4.Click += label4_Click;
-            // 
-            // textBox4
-            // 
-            textBox4.Location = new Point(62, 127);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(162, 23);
-            textBox4.TabIndex = 1;
             // 
             // label5
             // 
@@ -150,13 +136,6 @@
             label6.Size = new Size(114, 15);
             label6.TabIndex = 0;
             label6.Text = "Data de Nascimento";
-            // 
-            // textBox6
-            // 
-            textBox6.Location = new Point(610, 122);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(162, 23);
-            textBox6.TabIndex = 1;
             // 
             // label9
             // 
@@ -299,41 +278,142 @@
             // label17
             // 
             label17.AutoSize = true;
-            label17.BackColor = Color.FromArgb(0, 0, 0, 8);
-            label17.ForeColor = SystemColors.InactiveCaptionText;
-            label17.Location = new Point(34, 303);
+            label17.BackColor = Color.Gray;
+            label17.ForeColor = SystemColors.ControlLightLight;
+            label17.Location = new Point(36, 326);
             label17.Name = "label17";
-            label17.Size = new Size(56, 15);
+            label17.Size = new Size(50, 15);
             label17.TabIndex = 0;
-            label17.Text = "Endereço";
+            label17.Text = "Contato";
             label17.Click += label4_Click;
-            // 
-            // label18
-            // 
-            label18.AutoSize = true;
-            label18.BackColor = Color.FromArgb(0, 0, 0, 8);
-            label18.ForeColor = SystemColors.InactiveBorder;
-            label18.Location = new Point(58, 385);
-            label18.Name = "label18";
-            label18.Size = new Size(56, 15);
-            label18.TabIndex = 0;
-            label18.Text = "Endereço";
-            label18.Click += label4_Click;
-            // 
-            // textBox13
-            // 
-            textBox13.Location = new Point(565, 337);
-            textBox13.Name = "textBox13";
-            textBox13.Size = new Size(162, 23);
-            textBox13.TabIndex = 1;
             // 
             // maskedTextBox1
             // 
             maskedTextBox1.Location = new Point(73, 255);
             maskedTextBox1.Mask = "00000-000";
             maskedTextBox1.Name = "maskedTextBox1";
-            maskedTextBox1.Size = new Size(64, 23);
+            maskedTextBox1.Size = new Size(56, 23);
             maskedTextBox1.TabIndex = 2;
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.BackColor = Color.FromArgb(0, 0, 0, 8);
+            label18.ForeColor = SystemColors.InactiveCaptionText;
+            label18.Location = new Point(34, 379);
+            label18.Name = "label18";
+            label18.Size = new Size(61, 15);
+            label18.TabIndex = 0;
+            label18.Text = "Telefone 1";
+            label18.Click += label4_Click;
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.BackColor = Color.FromArgb(0, 0, 0, 8);
+            label19.ForeColor = SystemColors.InactiveCaptionText;
+            label19.Location = new Point(34, 427);
+            label19.Name = "label19";
+            label19.Size = new Size(61, 15);
+            label19.TabIndex = 0;
+            label19.Text = "Telefone 2";
+            label19.Click += label4_Click;
+            // 
+            // label20
+            // 
+            label20.AutoSize = true;
+            label20.BackColor = Color.FromArgb(0, 0, 0, 8);
+            label20.ForeColor = SystemColors.InactiveCaptionText;
+            label20.Location = new Point(294, 379);
+            label20.Name = "label20";
+            label20.Size = new Size(67, 15);
+            label20.TabIndex = 0;
+            label20.Text = "Referências";
+            label20.Click += label4_Click;
+            // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.BackColor = Color.FromArgb(0, 0, 0, 8);
+            label21.ForeColor = SystemColors.InactiveCaptionText;
+            label21.Location = new Point(291, 424);
+            label21.Name = "label21";
+            label21.Size = new Size(69, 15);
+            label21.TabIndex = 0;
+            label21.Text = "Observação";
+            label21.Click += label4_Click;
+            // 
+            // textBox10
+            // 
+            textBox10.Location = new Point(366, 371);
+            textBox10.Name = "textBox10";
+            textBox10.Size = new Size(162, 23);
+            textBox10.TabIndex = 1;
+            textBox10.TextChanged += textBox13_TextChanged;
+            // 
+            // textBox15
+            // 
+            textBox15.Location = new Point(366, 416);
+            textBox15.Name = "textBox15";
+            textBox15.Size = new Size(162, 23);
+            textBox15.TabIndex = 1;
+            textBox15.TextChanged += textBox13_TextChanged;
+            // 
+            // textBox17
+            // 
+            textBox17.Location = new Point(600, 371);
+            textBox17.Name = "textBox17";
+            textBox17.Size = new Size(162, 23);
+            textBox17.TabIndex = 1;
+            textBox17.TextChanged += textBox13_TextChanged;
+            // 
+            // label22
+            // 
+            label22.AutoSize = true;
+            label22.BackColor = Color.FromArgb(0, 0, 0, 8);
+            label22.ForeColor = SystemColors.InactiveCaptionText;
+            label22.Location = new Point(558, 379);
+            label22.Name = "label22";
+            label22.Size = new Size(36, 15);
+            label22.TabIndex = 0;
+            label22.Text = "Email";
+            label22.Click += label4_Click;
+            // 
+            // maskedTextBox2
+            // 
+            maskedTextBox2.Location = new Point(514, 79);
+            maskedTextBox2.Mask = "000.000.000-00";
+            maskedTextBox2.Name = "maskedTextBox2";
+            maskedTextBox2.Size = new Size(80, 23);
+            maskedTextBox2.TabIndex = 3;
+            // 
+            // maskedTextBox3
+            // 
+            maskedTextBox3.Location = new Point(73, 79);
+            maskedTextBox3.Name = "maskedTextBox3";
+            maskedTextBox3.Size = new Size(100, 23);
+            maskedTextBox3.TabIndex = 4;
+            // 
+            // maskedTextBox4
+            // 
+            maskedTextBox4.Location = new Point(111, 371);
+            maskedTextBox4.Name = "maskedTextBox4";
+            maskedTextBox4.Size = new Size(100, 23);
+            maskedTextBox4.TabIndex = 4;
+            // 
+            // maskedTextBox5
+            // 
+            maskedTextBox5.Location = new Point(111, 416);
+            maskedTextBox5.Name = "maskedTextBox5";
+            maskedTextBox5.Size = new Size(100, 23);
+            maskedTextBox5.TabIndex = 4;
+            // 
+            // maskedTextBox6
+            // 
+            maskedTextBox6.Location = new Point(73, 122);
+            maskedTextBox6.Name = "maskedTextBox6";
+            maskedTextBox6.Size = new Size(100, 23);
+            maskedTextBox6.TabIndex = 4;
             // 
             // FrmCliente
             // 
@@ -341,12 +421,18 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.InactiveCaption;
             ClientSize = new Size(793, 480);
+            Controls.Add(maskedTextBox6);
+            Controls.Add(maskedTextBox5);
+            Controls.Add(maskedTextBox4);
+            Controls.Add(maskedTextBox3);
+            Controls.Add(maskedTextBox2);
             Controls.Add(maskedTextBox1);
-            Controls.Add(textBox6);
             Controls.Add(label6);
             Controls.Add(textBox5);
             Controls.Add(label5);
-            Controls.Add(textBox13);
+            Controls.Add(textBox10);
+            Controls.Add(textBox17);
+            Controls.Add(textBox15);
             Controls.Add(textBox12);
             Controls.Add(label13);
             Controls.Add(textBox11);
@@ -356,19 +442,20 @@
             Controls.Add(label10);
             Controls.Add(textBox8);
             Controls.Add(label8);
-            Controls.Add(label18);
             Controls.Add(textBox7);
+            Controls.Add(label21);
+            Controls.Add(label22);
+            Controls.Add(label20);
+            Controls.Add(label19);
+            Controls.Add(label18);
             Controls.Add(label17);
             Controls.Add(label14);
             Controls.Add(label15);
             Controls.Add(label7);
-            Controls.Add(textBox4);
             Controls.Add(label4);
-            Controls.Add(textBox3);
             Controls.Add(label3);
             Controls.Add(textBox2);
             Controls.Add(label2);
-            Controls.Add(textBox1);
             Controls.Add(label9);
             Controls.Add(label16);
             Controls.Add(label1);
@@ -382,17 +469,13 @@
         #endregion
 
         private Label label1;
-        private TextBox textBox1;
         private Label label2;
         private TextBox textBox2;
         private Label label3;
-        private TextBox textBox3;
         private Label label4;
-        private TextBox textBox4;
         private Label label5;
         private TextBox textBox5;
         private Label label6;
-        private TextBox textBox6;
         private Label label9;
         private Label label7;
         private TextBox textBox7;
@@ -409,8 +492,19 @@
         private Label label15;
         private Label label16;
         private Label label17;
-        private Label label18;
-        private TextBox textBox13;
         private MaskedTextBox maskedTextBox1;
+        private Label label18;
+        private Label label19;
+        private Label label20;
+        private Label label21;
+        private TextBox textBox10;
+        private TextBox textBox15;
+        private TextBox textBox17;
+        private Label label22;
+        private MaskedTextBox maskedTextBox2;
+        private MaskedTextBox maskedTextBox3;
+        private MaskedTextBox maskedTextBox4;
+        private MaskedTextBox maskedTextBox5;
+        private MaskedTextBox maskedTextBox6;
     }
 }

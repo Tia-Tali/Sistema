@@ -38,5 +38,10 @@ namespace Sistema
         {
 
         }
+
+        private void textBox13_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
